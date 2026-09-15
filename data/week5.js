@@ -1,0 +1,78 @@
+window.TASKS = window.TASKS || [];
+window.TASKS.push(...[
+  {
+    "id": "t21",
+    "week": 5,
+    "subject": "IED",
+    "title": "Защита",
+    "learn": "magnetotérmico, diferencial, puesta a tierra",
+    "question": "Зачем нужно заземление?",
+    "correct": "заземление",
+    "needle": "заземление",
+    "theoryRu": "Автомат защищает проводку от перегрузки и короткого замыкания. Дифференциальное устройство реагирует на утечку тока. Заземление создаёт предусмотренный путь для аварийного тока. Эти элементы дополняют друг друга.",
+    "theoryEs": "El magnetotérmico protege el cableado frente a sobrecargas y cortocircuitos. El diferencial detecta fugas de corriente. La puesta a tierra proporciona un camino previsto para corrientes de defecto. Son protecciones complementarias.",
+    "videoTitle": "Подборка по теме: Защита",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20electricidad%20b%C3%A1sica%20formaci%C3%B3n%20profesional%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t22",
+    "week": 5,
+    "subject": "CA I",
+    "title": "Графики и среднее",
+    "learn": "таблицы, графики, среднее",
+    "question": "Среднее: 4,6,8,10 = ?",
+    "correct": "7",
+    "needle": "7",
+    "theoryRu": "Среднее арифметическое — сумма значений, делённая на их количество. Но одно необычно большое или маленькое значение может сильно изменить среднее. Поэтому данные полезно смотреть и в таблице, и на графике.",
+    "theoryEs": "La media aritmética es la suma de los valores dividida entre su número. Un valor muy alto o muy bajo puede modificar mucho la media. Por eso conviene observar los datos también en tablas y gráficas.",
+    "videoTitle": "Подборка по теме: Графики и среднее",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B8%20%D0%B8%20%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B5%20matem%C3%A1ticas%20secundaria%20espa%C3%B1ol%20explicaci%C3%B3n",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t23",
+    "week": 5,
+    "subject": "IT",
+    "title": "Домофон и CCTV",
+    "learn": "videoportero, cámara, CCTV",
+    "question": "Назови компоненты видеодомофона.",
+    "correct": "камера",
+    "needle": "камера",
+    "theoryRu": "Видеодомофон включает камеру, микрофон, динамик, кнопку вызова, монитор и линию связи; иногда он управляет электрозамком. CCTV — замкнутая система видеонаблюдения. При работе с камерами важны приватность и правила использования изображений.",
+    "theoryEs": "Un videoportero incluye cámara, micrófono, altavoz, pulsador, monitor y línea de comunicación; puede controlar una cerradura. CCTV es un circuito cerrado de televisión. En sistemas de cámaras también importan la privacidad y las normas de uso de imágenes.",
+    "videoTitle": "Подборка по теме: Домофон и CCTV",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%94%D0%BE%D0%BC%D0%BE%D1%84%D0%BE%D0%BD%20%D0%B8%20CCTV%20telecomunicaciones%20redes%20fibra%20%C3%B3ptica%20espa%C3%B1ol%20formaci%C3%B3n%20profesional",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t24",
+    "week": 5,
+    "subject": "CCSI",
+    "title": "Население и города",
+    "learn": "población, ciudad, migración, аргумент",
+    "question": "Напиши аргумент по-испански о важности общественного транспорта.",
+    "correct": "transporte",
+    "needle": "transporte",
+    "theoryRu": "Города растут из-за концентрации работы, образования, услуг и транспорта. Миграция может иметь экономические, семейные, образовательные, политические или экологические причины. Аргумент — это мнение, подкреплённое причиной и примером.",
+    "theoryEs": "Las ciudades crecen por la concentración de empleo, educación, servicios y transporte. La migración puede tener causas económicas, familiares, educativas, políticas o ambientales. Un argumento es una idea apoyada por una razón y un ejemplo.",
+    "videoTitle": "Подборка по теме: Население и города",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%9D%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%20historia%20geograf%C3%ADa%20ESO%20espa%C3%B1ol%20explicaci%C3%B3n",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t25",
+    "week": 5,
+    "subject": "PIACI",
+    "title": "Риски и СИЗ",
+    "learn": "опасность, риск, защита",
+    "question": "Назови 5 опасностей в мастерской и меры защиты.",
+    "correct": "СИЗ",
+    "needle": "сиз",
+    "theoryRu": "Опасность — источник потенциального вреда. Риск учитывает вероятность события и тяжесть последствий. Профилактика начинается с устранения опасности и коллективной защиты, затем организации работы и СИЗ.",
+    "theoryEs": "Un peligro es una fuente potencial de daño. El riesgo combina probabilidad y gravedad. La prevención prioriza eliminar o reducir el peligro, aplicar protección colectiva, organizar el trabajo y usar EPI.",
+    "videoTitle": "Подборка по теме: Риски и СИЗ",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%A0%D0%B8%D1%81%D0%BA%D0%B8%20%D0%B8%20%D0%A1%D0%98%D0%97%20proyecto%20electricidad%20telecomunicaciones%20seguridad%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  }
+]);
