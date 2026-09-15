@@ -1,0 +1,78 @@
+window.TASKS = window.TASKS || [];
+window.TASKS.push(...[
+  {
+    "id": "t1",
+    "week": 1,
+    "subject": "IED",
+    "title": "Проводники и кабели",
+    "learn": "conductor, cable, sección, aislamiento",
+    "question": "Чем кабель отличается от проводника?",
+    "correct": "Изоляция",
+    "needle": "изоляция",
+    "theoryRu": "Проводник — материал, по которому может течь электрический ток. В бытовой проводке обычно используется медь. Кабель включает одну или несколько проводящих жил и изоляцию. Сечение жилы измеряется в мм²: слишком тонкий проводник при большой нагрузке может перегреваться. Соединения выполняют в предназначенных для этого клеммах и коробках.",
+    "theoryEs": "Un conductor es un material por el que puede circular la corriente eléctrica; en viviendas suele ser de cobre. Un cable contiene uno o varios conductores y su aislamiento. La sección se expresa en mm²: un conductor demasiado fino puede calentarse con una carga alta. Las conexiones se realizan en bornes y cajas adecuadas.",
+    "videoTitle": "Подборка по теме: Проводники и кабели",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%9F%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%B8%20%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D0%B8%20electricidad%20b%C3%A1sica%20formaci%C3%B3n%20profesional%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t2",
+    "week": 1,
+    "subject": "CA I",
+    "title": "Числа и порядок действий",
+    "learn": "целые числа, порядок действий",
+    "question": "Реши: 18 − 3×4 + 2",
+    "correct": "8",
+    "needle": "8",
+    "theoryRu": "В технических расчётах порядок действий обязателен: скобки, затем умножение и деление, потом сложение и вычитание. Отрицательные числа нужны для температур, изменений и координат. Полезно записывать промежуточные шаги, чтобы видеть ошибку.",
+    "theoryEs": "En los cálculos técnicos hay que respetar el orden de las operaciones: paréntesis, multiplicación y división, y después suma y resta. Los números negativos aparecen en temperaturas, variaciones y coordenadas. Conviene escribir los pasos intermedios.",
+    "videoTitle": "Подборка по теме: Числа и порядок действий",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%A7%D0%B8%D1%81%D0%BB%D0%B0%20%D0%B8%20%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B9%20matem%C3%A1ticas%20secundaria%20espa%C3%B1ol%20explicaci%C3%B3n",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t3",
+    "week": 1,
+    "subject": "IT",
+    "title": "Телекоммуникации в здании",
+    "learn": "ICT, coaxial, par trenzado, fibra óptica",
+    "question": "Назови 3 среды передачи данных.",
+    "correct": "Витая пара",
+    "needle": "витая пара",
+    "theoryRu": "В здании есть не только силовая электрика, но и линии связи: интернет, телевидение, телефония, домофон. Информация передаётся по коаксиальному кабелю, витой паре или оптоволокну. Монтажник должен понимать назначение линии и не повреждать кабель.",
+    "theoryEs": "En un edificio no solo hay electricidad de potencia, sino también líneas de telecomunicaciones: internet, televisión, telefonía y portero. La información puede viajar por coaxial, par trenzado o fibra óptica. El instalador debe conocer la función de cada línea y proteger el cableado.",
+    "videoTitle": "Как работает оптоволокно",
+    "videoUrl": "https://www.youtube.com/watch?v=6xDIUGsyvBs",
+    "videoNote": "испанский, наглядная демонстрация"
+  },
+  {
+    "id": "t4",
+    "week": 1,
+    "subject": "CCSI",
+    "title": "Климат и ландшафт",
+    "learn": "clima, relieve, paisaje, población",
+    "question": "Напиши 3–4 предложения по-испански о климате Астурии.",
+    "correct": "paisaje",
+    "needle": "paisaje",
+    "theoryRu": "Климат — типичные погодные условия территории за длительный период. На него влияют широта, высота, близость моря и рельеф. Ландшафт включает природные элементы и деятельность человека. В тексте важно отличать тему от главной мысли.",
+    "theoryEs": "El clima es el conjunto de condiciones atmosféricas habituales de un territorio durante un período largo. Influyen la latitud, la altitud, el mar y el relieve. El paisaje combina elementos naturales y acción humana. En un texto hay que distinguir el tema de la idea principal.",
+    "videoTitle": "Подборка по теме: Климат и ландшафт",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%9A%D0%BB%D0%B8%D0%BC%D0%B0%D1%82%20%D0%B8%20%D0%BB%D0%B0%D0%BD%D0%B4%D1%88%D0%B0%D1%84%D1%82%20historia%20geograf%C3%ADa%20ESO%20espa%C3%B1ol%20explicaci%C3%B3n",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t5",
+    "week": 1,
+    "subject": "PIACI",
+    "title": "Профессии",
+    "learn": "электромонтажник и монтажник телекоммуникаций",
+    "question": "Что общего у этих двух профессий?",
+    "correct": "безопасность",
+    "needle": "безопасность",
+    "theoryRu": "Электромонтажник работает с питанием, освещением, защитой и автоматикой. Монтажник телекоммуникаций — с сетями данных, телевидением, домофонией, камерами и звуком. Обоим нужны схемы, инструмент, аккуратность, диагностика и безопасность.",
+    "theoryEs": "El instalador electricista trabaja con alimentación, iluminación, protecciones y automatización. El instalador de telecomunicaciones trabaja con redes de datos, televisión, porteros, cámaras y sonido. Ambos necesitan leer esquemas, usar herramientas, diagnosticar averías y trabajar con seguridad.",
+    "videoTitle": "Подборка по теме: Профессии",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B8%20proyecto%20electricidad%20telecomunicaciones%20seguridad%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  }
+]);
