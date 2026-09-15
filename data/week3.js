@@ -1,0 +1,78 @@
+window.TASKS = window.TASKS || [];
+window.TASKS.push(...[
+  {
+    "id": "t11",
+    "week": 3,
+    "subject": "IED",
+    "title": "Кабельные каналы и коробки",
+    "learn": "tubo, canaleta, caja de derivación, cuadro",
+    "question": "Зачем механически защищают кабель?",
+    "correct": "коробка",
+    "needle": "коробка",
+    "theoryRu": "Трубы, кабель-каналы и короба механически защищают проводку и организуют трассу. Распределительная коробка даёт доступ к соединениям. Щит объединяет защитные аппараты и распределяет линии.",
+    "theoryEs": "Los tubos, canaletas y bandejas protegen mecánicamente el cableado y organizan su recorrido. Una caja de derivación aloja conexiones. El cuadro reúne protecciones y distribuye los circuitos.",
+    "videoTitle": "Подборка по теме: Кабельные каналы и коробки",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%9A%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D1%8B%20%D0%B8%20%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8%20electricidad%20b%C3%A1sica%20formaci%C3%B3n%20profesional%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t12",
+    "week": 3,
+    "subject": "CA I",
+    "title": "Единицы и геометрия",
+    "learn": "mm, cm, m, площади",
+    "question": "2,4 м = сколько см?",
+    "correct": "240",
+    "needle": "240",
+    "theoryRu": "Длина измеряется в мм, см, м; площадь — в квадратных единицах. 2,5 мм² на кабеле означает площадь поперечного сечения жилы, а не длину. Геометрия нужна для расчёта трасс, помещений и материалов.",
+    "theoryEs": "La longitud se mide en mm, cm y m; el área en unidades cuadradas. 2,5 mm² en un cable indica el área de la sección del conductor, no su longitud. La geometría sirve para calcular recorridos, superficies y materiales.",
+    "videoTitle": "Подборка по теме: Единицы и геометрия",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%20%D0%B8%20%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F%20matem%C3%A1ticas%20secundaria%20espa%C3%B1ol%20explicaci%C3%B3n",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t13",
+    "week": 3,
+    "subject": "IT",
+    "title": "Оптоволокно",
+    "learn": "fibra óptica, banda ancha, conector",
+    "question": "Назови 2 преимущества оптоволокна.",
+    "correct": "свет",
+    "needle": "свет",
+    "theoryRu": "Оптоволокно передаёт информацию импульсами света. Его преимущества — высокая скорость, низкие потери и устойчивость к электромагнитным помехам. Но оно чувствительно к повреждениям, загрязнению разъёмов и слишком сильному изгибу.",
+    "theoryEs": "La fibra óptica transmite información mediante pulsos de luz. Sus ventajas son alta capacidad, bajas pérdidas y resistencia a interferencias electromagnéticas. Pero requiere cuidado con golpes, suciedad en conectores y curvaturas excesivas.",
+    "videoTitle": "Как работает оптоволокно",
+    "videoUrl": "https://www.youtube.com/watch?v=6xDIUGsyvBs",
+    "videoNote": "испанский, наглядная демонстрация"
+  },
+  {
+    "id": "t14",
+    "week": 3,
+    "subject": "CCSI",
+    "title": "Греция и Рим",
+    "learn": "наследие античности, структура текста",
+    "question": "Назови 3 наследия Древнего Рима.",
+    "correct": "дороги",
+    "needle": "дороги",
+    "theoryRu": "Греция повлияла на философию, политические идеи, науку и искусство. Рим — на право, дороги, инженерные сооружения, города и управление. Хороший ответ содержит тезис, объяснение и пример.",
+    "theoryEs": "Grecia influyó en filosofía, ideas políticas, ciencia y arte. Roma dejó una gran herencia en derecho, carreteras, ingeniería, ciudades y administración. Una buena respuesta contiene una idea, una explicación y un ejemplo.",
+    "videoTitle": "Подборка по теме: Греция и Рим",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%93%D1%80%D0%B5%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%A0%D0%B8%D0%BC%20historia%20geograf%C3%ADa%20ESO%20espa%C3%B1ol%20explicaci%C3%B3n",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t15",
+    "week": 3,
+    "subject": "PIACI",
+    "title": "План комнаты",
+    "learn": "силовые и телеком-точки",
+    "question": "Что на плане относится к силовой электрике, а что к связи?",
+    "correct": "план",
+    "needle": "план",
+    "theoryRu": "План — вид помещения сверху. На нём отмечают стены, двери и инженерные точки. Символами различают розетки, выключатели, светильники, сетевые и телевизионные точки. Легенда объясняет обозначения.",
+    "theoryEs": "Un plano representa un espacio visto desde arriba. Muestra paredes, puertas y puntos de instalación. Los símbolos distinguen tomas, interruptores, luminarias y puntos de red o TV. La leyenda explica los símbolos.",
+    "videoTitle": "Подборка по теме: План комнаты",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D1%8B%20proyecto%20electricidad%20telecomunicaciones%20seguridad%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  }
+]);
