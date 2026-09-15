@@ -1,0 +1,78 @@
+window.TASKS = window.TASKS || [];
+window.TASKS.push(...[
+  {
+    "id": "t6",
+    "week": 2,
+    "subject": "IED",
+    "title": "Электрические схемы",
+    "learn": "esquema, interruptor, lámpara, enchufe",
+    "question": "Опиши цепь: источник → выключатель → лампа.",
+    "correct": "схема",
+    "needle": "схема",
+    "theoryRu": "Электрическая схема показывает не внешний вид устройств, а их функции и связи. Лампы, выключатели, розетки и защитные аппараты имеют условные символы. Перед монтажом специалист читает схему и понимает, что должно происходить в цепи.",
+    "theoryEs": "Un esquema eléctrico no representa el aspecto físico de los aparatos, sino sus funciones y conexiones. Lámparas, interruptores, tomas y protecciones tienen símbolos. Antes de montar, el profesional interpreta el esquema y comprende el funcionamiento del circuito.",
+    "videoTitle": "Подборка по теме: Электрические схемы",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%81%D1%85%D0%B5%D0%BC%D1%8B%20electricidad%20b%C3%A1sica%20formaci%C3%B3n%20profesional%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t7",
+    "week": 2,
+    "subject": "CA I",
+    "title": "Проценты и пропорции",
+    "learn": "25%=1/4; пропорции",
+    "question": "25% от 80 = ?",
+    "correct": "20",
+    "needle": "20",
+    "theoryRu": "Процент — доля от ста: 25% = 25/100 = 0,25 = 1/4. В технических задачах проценты встречаются при потерях, запасе материала и сравнении величин. Сначала нужно понять, что считается за 100%.",
+    "theoryEs": "Un porcentaje es una parte de cien: 25% = 25/100 = 0,25 = 1/4. En problemas técnicos aparece al calcular pérdidas, margen de material y comparaciones. Primero hay que identificar qué cantidad representa el 100%.",
+    "videoTitle": "Как считать проценты",
+    "videoUrl": "https://www.youtube.com/watch?v=uSLedpIJffM",
+    "videoNote": "испанский, простое объяснение"
+  },
+  {
+    "id": "t8",
+    "week": 2,
+    "subject": "IT",
+    "title": "ТВ и радио",
+    "learn": "antena, señal, amplificador, distribuidor",
+    "question": "Опиши путь ТВ-сигнала от антенны до розетки.",
+    "correct": "усилитель",
+    "needle": "усилитель",
+    "theoryRu": "Антенна принимает сигнал. Затем он может пройти через усилитель и распределитель и попасть в пользовательскую розетку. Плохой контакт или повреждение кабеля создают потери и помехи, поэтому качество соединений критично.",
+    "theoryEs": "La antena recibe la señal. Después puede pasar por un amplificador y un distribuidor hasta llegar a la toma del usuario. Un mal contacto o un cable dañado producen pérdidas e interferencias, por eso la calidad de las conexiones es esencial.",
+    "videoTitle": "Подборка по теме: ТВ и радио",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%A2%D0%92%20%D0%B8%20%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%20telecomunicaciones%20redes%20fibra%20%C3%B3ptica%20espa%C3%B1ol%20formaci%C3%B3n%20profesional",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t9",
+    "week": 2,
+    "subject": "CCSI",
+    "title": "Первые цивилизации",
+    "learn": "реки, города, письменность",
+    "question": "Почему ранние цивилизации возникали у рек?",
+    "correct": "письменность",
+    "needle": "письменность",
+    "theoryRu": "Первые цивилизации формировались там, где были вода, земледелие и транспорт. Реки позволяли выращивать пищу и связывать поселения, но требовали совместной организации. Города привели к специализации труда, управлению и письменности.",
+    "theoryEs": "Las primeras civilizaciones surgieron donde había agua, agricultura y transporte. Los ríos facilitaban la producción de alimentos y la comunicación, pero exigían organización. Las ciudades impulsaron la especialización del trabajo, la administración y la escritura.",
+    "videoTitle": "Edad Antigua y comienzo de la civilización — Academia Play",
+    "videoUrl": "https://www.youtube.com/watch?v=xwBv5ct7sEM",
+    "videoNote": "испанский, история"
+  },
+  {
+    "id": "t10",
+    "week": 2,
+    "subject": "PIACI",
+    "title": "Инженерная разведка дома",
+    "learn": "найти 6 элементов без разборки",
+    "question": "Раздели найденные элементы на электрику и связь.",
+    "correct": "розетка",
+    "needle": "розетка",
+    "theoryRu": "Технический осмотр начинается с наблюдения, а не с разборки. Можно определить розетку, выключатель, щит, роутер, ТВ-точку или домофон по внешнему виду и назначению. Силовая электрика передаёт энергию, телекоммуникации — информацию.",
+    "theoryEs": "Una inspección técnica empieza por observar, no por desmontar. Se pueden identificar tomas, interruptores, cuadros, routers, tomas de TV y porteros. La instalación eléctrica transporta energía; las telecomunicaciones transportan información.",
+    "videoTitle": "Подборка по теме: Инженерная разведка дома",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D0%BA%D0%B0%20%D0%B4%D0%BE%D0%BC%D0%B0%20proyecto%20electricidad%20telecomunicaciones%20seguridad%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  }
+]);
