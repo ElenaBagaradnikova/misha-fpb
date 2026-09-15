@@ -3,6 +3,7 @@
 <title>Миша — FP тренажёр</title>
 <link rel="stylesheet" href="css/styles.css"></head><body><div class=wrap>
 <header><div><h1>Миша · FP Electricidad y Electrónica</h1><div class=muted>Теория RU → teoría ES → видео → проверка знаний</div></div><div><button class=btn onclick=exportData()>Экспорт прогресса</button> <label class=btn>Импорт<input type=file hidden accept=.json onchange=importData(event)></label></div></header>
+<div id=cloudbar class=cloudbar></div>
 <div class=tabs><button class="tab on" onclick="showView('study',this)">Учиться</button><button class=tab onclick="showView('progress',this)">Мой прогресс</button><button class=tab onclick="parentLogin(this)">Для родителя</button></div>
 
 <section id=study>
@@ -16,10 +17,14 @@
 
 <section id=parent class=hidden><div id=parstats class=stats></div><div class=card><h2>Динамика по заданиям</h2><div id=matrix></div></div><div class=card><h2>Ответы для проверки</h2><div id=reviews></div></div></section>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/runtime.js"></script>
 <script src="data/week1.js"></script>
 <script src="data/week2.js"></script>
 <script src="data/week3.js"></script>
 <script src="data/week4.js"></script>
 <script src="data/week5.js"></script>
 <script src="data/week6.js"></script>
-<script src="js/app.js"></script></body></html>
+<script src="js/app.js"></script>
+<script src="js/cloud.js"></script>
+</body></html>
