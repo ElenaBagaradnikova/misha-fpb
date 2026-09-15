@@ -1,0 +1,78 @@
+window.TASKS = window.TASKS || [];
+window.TASKS.push(...[
+  {
+    "id": "t16",
+    "week": 4,
+    "subject": "IED",
+    "title": "Закон Ома",
+    "learn": "U=I×R; tensión, corriente, resistencia",
+    "question": "Если U=12 В, R=6 Ом, I=?",
+    "correct": "2",
+    "needle": "2",
+    "theoryRu": "Напряжение U измеряется в вольтах, ток I — в амперах, сопротивление R — в омах. Закон Ома: U = I×R. Отсюда I = U/R и R = U/I. Дома работаем только с расчётами и симуляциями.",
+    "theoryEs": "La tensión U se mide en voltios, la corriente I en amperios y la resistencia R en ohmios. Ley de Ohm: U = I×R. También I = U/R y R = U/I. En casa trabajamos solo con cálculos y simulaciones.",
+    "videoTitle": "Ley de Ohm: voltaje, corriente, resistencia",
+    "videoUrl": "https://www.youtube.com/watch?v=MAnyA_xMtCA",
+    "videoNote": "испанский, электротехника"
+  },
+  {
+    "id": "t17",
+    "week": 4,
+    "subject": "CA I",
+    "title": "Уравнения и формулы",
+    "learn": "3x+5=20; выражение неизвестного",
+    "question": "Реши: 3x+5=20",
+    "correct": "5",
+    "needle": "5",
+    "theoryRu": "Алгебра позволяет записывать общие зависимости буквами. Чтобы найти неизвестное, формулу преобразуют. Например, из U = I×R получаем R = U/I. Важно следить и за числом, и за единицей измерения.",
+    "theoryEs": "El álgebra permite expresar relaciones generales con letras. Para hallar una incógnita se transforma la fórmula. Por ejemplo, de U = I×R obtenemos R = U/I. Hay que controlar tanto el valor como la unidad.",
+    "videoTitle": "Подборка по теме: Уравнения и формулы",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%A3%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D1%84%D0%BE%D1%80%D0%BC%D1%83%D0%BB%D1%8B%20matem%C3%A1ticas%20secundaria%20espa%C3%B1ol%20explicaci%C3%B3n",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t18",
+    "week": 4,
+    "subject": "IT",
+    "title": "Локальная сеть",
+    "learn": "LAN, switch, router, par trenzado",
+    "question": "Чем switch отличается от router?",
+    "correct": "router",
+    "needle": "router",
+    "theoryRu": "LAN соединяет устройства в ограниченном пространстве. Switch связывает устройства внутри сети, а router соединяет разные сети и направляет трафик между ними. Домашний router обычно связывает локальную сеть с интернетом.",
+    "theoryEs": "Una LAN conecta dispositivos en un espacio limitado. Un switch interconecta equipos de la misma red; un router conecta redes distintas y dirige el tráfico entre ellas. En casa, el router suele unir la red local con internet.",
+    "videoTitle": "Switch vs Router",
+    "videoUrl": "https://www.youtube.com/watch?v=DI0XJ0lJbTg",
+    "videoNote": "короткий ролик, испанский/визуальное объяснение"
+  },
+  {
+    "id": "t19",
+    "week": 4,
+    "subject": "CCSI",
+    "title": "Средневековье и источники",
+    "learn": "факт, мнение, исторический источник",
+    "question": "Назови 3 типа исторических источников.",
+    "correct": "источник",
+    "needle": "источник",
+    "theoryRu": "Исторический источник — свидетельство о прошлом: текст, предмет, изображение, устный рассказ и т.д. Факт можно проверять по данным, мнение выражает оценку. Источник нужно оценивать по автору, времени и цели создания.",
+    "theoryEs": "Una fuente histórica es un testimonio del pasado: texto, objeto, imagen, relato oral, etc. Un hecho puede contrastarse con datos; una opinión expresa una valoración. La fuente debe analizarse según autor, fecha y finalidad.",
+    "videoTitle": "Подборка по теме: Средневековье и источники",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%B5%D0%BA%D0%BE%D0%B2%D1%8C%D0%B5%20%D0%B8%20%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8%20historia%20geograf%C3%ADa%20ESO%20espa%C3%B1ol%20explicaci%C3%B3n",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t20",
+    "week": 4,
+    "subject": "PIACI",
+    "title": "Питание + сеть",
+    "learn": "единый план комнаты",
+    "question": "Почему на плане надо различать силовые и дата-линии?",
+    "correct": "линии",
+    "needle": "линии",
+    "theoryRu": "Силовые линии передают энергию, а телекоммуникационные — информацию. На плане их нужно различать, чтобы монтаж и обслуживание были понятными. Планирование заранее помогает правильно разместить точки питания и связи.",
+    "theoryEs": "Los circuitos de potencia transportan energía y las líneas de telecomunicaciones transportan información. En un plano deben distinguirse para facilitar montaje y mantenimiento. Planificar ayuda a colocar correctamente los puntos de energía y datos.",
+    "videoTitle": "Подборка по теме: Питание + сеть",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%9F%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%20%2B%20%D1%81%D0%B5%D1%82%D1%8C%20proyecto%20electricidad%20telecomunicaciones%20seguridad%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  }
+]);
