@@ -1,0 +1,78 @@
+window.TASKS = window.TASKS || [];
+window.TASKS.push(...[
+  {
+    "id": "t26",
+    "week": 6,
+    "subject": "IED",
+    "title": "Освещение",
+    "learn": "punto de luz, interruptor, conmutador",
+    "question": "Где удобно управление светом из двух мест?",
+    "correct": "коридор",
+    "needle": "коридор",
+    "theoryRu": "Простой выключатель управляет светом из одной точки. Схема с переключателями позволяет управлять одним светильником из двух мест — например, в коридоре или на лестнице. Реальный монтаж выполняется только в учебной мастерской.",
+    "theoryEs": "Un interruptor controla una luz desde un punto. Los conmutadores permiten controlar una misma luminaria desde dos lugares, por ejemplo en un pasillo o escalera. El montaje real se realiza solo en el taller.",
+    "videoTitle": "Подборка по теме: Освещение",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%9E%D1%81%D0%B2%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%20electricidad%20b%C3%A1sica%20formaci%C3%B3n%20profesional%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t27",
+    "week": 6,
+    "subject": "CA I",
+    "title": "Вещество и энергия",
+    "learn": "преобразования энергии",
+    "question": "Во что превращается энергия в динамике?",
+    "correct": "звук",
+    "needle": "звук",
+    "theoryRu": "Энергия преобразуется из одной формы в другую. Лампа превращает электрическую энергию в свет и тепло, двигатель — в движение и тепло, динамик — в звук и тепло. Часть энергии обычно рассеивается.",
+    "theoryEs": "La energía se transforma de una forma a otra. Una lámpara convierte electricidad en luz y calor; un motor, en movimiento y calor; un altavoz, en sonido y calor. Una parte de la energía suele disiparse.",
+    "videoTitle": "Подборка по теме: Вещество и энергия",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%92%D0%B5%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F%20matem%C3%A1ticas%20secundaria%20espa%C3%B1ol%20explicaci%C3%B3n",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t28",
+    "week": 6,
+    "subject": "IT",
+    "title": "Звуковые системы",
+    "learn": "micrófono, amplificador, altavoz, megafonía",
+    "question": "Опиши путь сигнала от микрофона до громкоговорителя.",
+    "correct": "усилитель",
+    "needle": "усилитель",
+    "theoryRu": "Микрофон превращает звук в электрический сигнал. Усилитель увеличивает уровень сигнала. Громкоговоритель преобразует электрический сигнал обратно в звук. В системе важны также кабели и правильное распределение мощности.",
+    "theoryEs": "El micrófono convierte el sonido en una señal eléctrica. El amplificador aumenta el nivel de la señal. El altavoz transforma de nuevo la señal eléctrica en sonido. También son importantes el cableado y la distribución de potencia.",
+    "videoTitle": "Подборка по теме: Звуковые системы",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%97%D0%B2%D1%83%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20telecomunicaciones%20redes%20fibra%20%C3%B3ptica%20espa%C3%B1ol%20formaci%C3%B3n%20profesional",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t29",
+    "week": 6,
+    "subject": "CCSI",
+    "title": "Новое время и письмо",
+    "learn": "вежливый запрос преподавателю",
+    "question": "Напиши по-испански короткий запрос преподавателю о материалах к уроку.",
+    "correct": "gracias",
+    "needle": "gracias",
+    "theoryRu": "Начало Нового времени связано с расширением торговли, морских путешествий, ростом городов и книгопечатанием. Функциональное письмо имеет практическую цель: запросить информацию, объяснить проблему или дать инструкцию. Хорошее сообщение краткое и вежливое.",
+    "theoryEs": "El inicio de la Edad Moderna se relaciona con la expansión del comercio, los viajes marítimos, el crecimiento urbano y la imprenta. La escritura funcional tiene una finalidad práctica: pedir información, explicar un problema o dar instrucciones. Un buen mensaje es breve y cortés.",
+    "videoTitle": "Подборка по теме: Новое время и письмо",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%9D%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%20%D0%B8%20%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE%20historia%20geograf%C3%ADa%20ESO%20espa%C3%B1ol%20explicaci%C3%B3n",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  },
+  {
+    "id": "t30",
+    "week": 6,
+    "subject": "PIACI",
+    "title": "Умная комната",
+    "learn": "свет, датчик, сеть, безопасность",
+    "question": "Опиши свой мини-проект умной комнаты.",
+    "correct": "датчик",
+    "needle": "датчик",
+    "theoryRu": "Умная комната объединяет питание, управление и связь: освещение, датчики, автоматику, сеть и устройства связи. Хороший проект объясняет назначение каждого элемента, связи между ними и меры безопасности.",
+    "theoryEs": "Una habitación inteligente combina alimentación, control y comunicaciones: iluminación, sensores, automatización, red y dispositivos de comunicación. Un buen proyecto explica la función de cada elemento, sus relaciones y las medidas de seguridad.",
+    "videoTitle": "Подборка по теме: Умная комната",
+    "videoUrl": "https://www.youtube.com/results?search_query=%D0%A3%D0%BC%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B0%20proyecto%20electricidad%20telecomunicaciones%20seguridad%20espa%C3%B1ol",
+    "videoNote": "поиск по теме на YouTube; выбирай короткое объяснение на испанском"
+  }
+]);
